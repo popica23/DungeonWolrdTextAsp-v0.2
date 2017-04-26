@@ -74,10 +74,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MainPage.html" />
+    <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StateMachine.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
